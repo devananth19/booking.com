@@ -1,0 +1,25 @@
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pListImg{
+    width: 100%;
+    object-fit: cover;
+}
+.pListItems{
+    color: white;
+    overflow: hidden;
+    flex:1;
+    gap:10px;
+}
+.pListTitle{
+    color: black;
+    font-size: 10px;
+}
+.pListTitle h2 {
+    margin-top: -1em;
+    font-weight: 300; /* Adjust the value as needed */
+  }
